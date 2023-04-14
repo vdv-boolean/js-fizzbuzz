@@ -3,10 +3,25 @@
 ************************************************/
 
 /* Browser Reset */
+
 *,
 *::before,
 *::after {
     margin: 0;
     padding: 0;
     box-sizing: 0;
+}
+
+/* Color Palette */
+
+:root {
+    --bg-color: #0C3442;
+}
+
+/************************************************
+// Body
+************************************************/
+
+body {
+    background-color: var(--bg-color);
 }
