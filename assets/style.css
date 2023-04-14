@@ -17,6 +17,7 @@
 :root {
     --bg-color: #0C3442;
     --bg-simplysq: #177EA6;
+    --bg-fizzsq: #1AD099;
 }
 
 /************************************************
@@ -49,4 +50,8 @@ margin: 0.5rem;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+.fizz {
+    background-color: var(--bg-fizzsq);
 }
