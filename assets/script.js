@@ -9,6 +9,10 @@ for (let i = 1; i <= numOfSquare; i++) {
         console.log('Fizz');
         container.innerHTML = container.innerHTML + `<div class="square fizz">Fizz</div>`;
     }
+    else if (i % 5 == 0) {
+        console.log('Buzz');
+        container.innerHTML = container.innerHTML + `<div class="square buzz">Buzz</div>`;
+    }
     else {
         console.log(i);
         container.innerHTML = container.innerHTML + `<div class="square">${i}</div>`;
