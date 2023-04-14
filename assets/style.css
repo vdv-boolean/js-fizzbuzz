@@ -19,6 +19,7 @@
     --bg-simplysq: #177EA6;
     --bg-fizzsq: #1AD099;
     --bg--buzzsq: #FFCB66;
+    --bg--fizzbuzzsq: #EC3F64;
 }
 
 /************************************************
@@ -59,4 +60,8 @@ align-items: center;
 
 .buzz {
     background-color: var(--bg--buzzsq);
+}
+
+.fizzbuzz {
+    background-color: var(--bg--fizzbuzzsq);
 }
